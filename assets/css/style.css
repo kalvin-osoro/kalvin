@@ -1,12 +1,22 @@
+body{
+    font-family: arial, 'Courier New', Courier, monospace;
+}
 h1{
     font-size: 28px;
 }
 
 #position{
     font-size: 18px;
-    color: royalblue;
+    font-weight: bold;
+    
 }
 
 .summary{
     font-size: 16px;
 }
+
+h2{
+    color: #2f5a78;
+    font-size: 20px;
+}
+
