@@ -1,9 +1,10 @@
 body{
     font-family: arial, 'Courier New', Courier, monospace;
 }
-h1{
-    font-size: 28px;
+header, #copyright{
+    text-align: center;
 }
+
 
 #position{
     font-size: 18px;
@@ -13,6 +14,11 @@ h1{
 
 .summary{
     font-size: 16px;
+    line-height: 20px;
+}
+h1{
+    font-size: 28px;
+    text-transform: capitalize;
 }
 
 h2{
