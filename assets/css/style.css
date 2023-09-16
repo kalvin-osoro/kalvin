@@ -21,16 +21,6 @@ ul{
     margin: 0;
 }
 
-li b{
-    color: #2f5a78;
-}
-
-li{
-    margin-bottom: 5px;
-}
-
-
-
 #position{
     font-size: 18px;
     font-weight: bold;
@@ -53,5 +43,28 @@ h2{
     padding-bottom: 2px;
 }
 
+li{
+    margin-bottom: 5px;
+    color: #e99f4b;
+     list-style-type: circle;
+}
 
+li b{
+    color: #2f5a78;
+   
+}
+
+footer a {
+    color: #e99f4b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    color: #2f5a78;
+    list-style-type:circle ;
+}
 
