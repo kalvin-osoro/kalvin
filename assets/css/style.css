@@ -1,5 +1,10 @@
 body{
     font-family: arial, 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+.summary img{
+    /* position: relative; */
+    float: right;
 }
 header, #copyright{
     text-align: center;
@@ -10,6 +15,10 @@ header, footer{
 header{
     padding-top: 2px;
     padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 section, footer{
@@ -54,6 +63,28 @@ li b{
    
 }
 
+table{
+    border-collapse: collapse;
+    /* text-align: center; */
+}
+
+th{
+    background-color: #2f5a78;
+    color: #ffffff;
+    text-align: center;    
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    color: #b0d1e4;
+
+}
+tr:nth-child(odd) {
+    color: #6aabd1;
+}
+
 footer a {
     color: #e99f4b;
     text-decoration: none;
@@ -67,4 +98,30 @@ footer li {
     color: #2f5a78;
     list-style-type:circle ;
 }
+
+input[type='text'], input[type='email'] {
+  border: 1px solid #2F5A78;
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+textarea {
+  border: 1px solid #2F5A78;
+  width: 203px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+label {
+  font-weight: bold;
+  color: #2F5A78;
+}
+input[type='submit'] {
+  background-color: #2F5A78;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 15px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 7px;
+} 
 
