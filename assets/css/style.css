@@ -2,10 +2,7 @@ body{
     font-family: arial, 'Courier New', Courier, monospace;
     margin-top: 100px;
 }
-.summary img{
-    /* position: relative; */
-    float: right;
-}
+
 header, #copyright{
     text-align: center;
 }
@@ -124,4 +121,14 @@ input[type='submit'] {
   color: white;
   margin-bottom: 7px;
 } 
+
+.summary img{
+    float: right;
+    transition: transform 1s ease;
+}
+
+.summary img:hover{
+
+    transform:scale(1.3);
+}
 
